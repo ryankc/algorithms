@@ -12,6 +12,8 @@ func TestStackSize(t *testing.T) {
 }
 
 func TestPushAndThenPop(t *testing.T) {
-	NewStack(20)
-
+	stack := NewStack(20)
+	stack.Push("one")
+	stack.Push("two")
+	assert.Equal(t, "two", stack.Pop())
 }
