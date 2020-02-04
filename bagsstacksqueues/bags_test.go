@@ -1,4 +1,4 @@
-package bags
+package bagsstacksqueues
 
 import (
 	"github.com/ryankc/algorithms/assert"

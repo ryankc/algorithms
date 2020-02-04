@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/ryankc/algorithms/bags"
+	"github.com/ryankc/algorithms/bagsstacksqueues"
 )
 
 func main(){
-	stack := bags.NewStack(2)
+	stack := bagsstacksqueues.NewStack(2)
 	fmt.Println(stack.Size())
 	fmt.Println(stack.IsEmpty())
 }
